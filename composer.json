@@ -10,6 +10,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
+        "laravel/socialite": "^5.5",
         "laravel/tinker": "^2.7"
     },
     "require-dev": {
@@ -55,7 +56,8 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "platform-check": false
     },
     "minimum-stability": "dev",
     "prefer-stable": true
